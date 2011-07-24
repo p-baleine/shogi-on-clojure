@@ -1,0 +1,30 @@
+table.on-board {
+    background-color:#ffd700
+}
+
+td.square {
+    border: 1px solid;
+}
+
+td.first {
+    vertical-align: bottom;
+}
+
+td.second {
+    vertical-align: top;
+}
+
+.square {
+    height:43px;
+    width:43px;
+    background-color:#ffd700
+}
+
+div.second {
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipV;
+    -ms-filter: "FlipV";
+}
